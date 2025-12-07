@@ -1,0 +1,48 @@
+.comment {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.info {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+.deleteBtn {
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+
+.deleteBtn:hover {
+    color: #ff4d4f;
+    text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: var(--color-bg-body);
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: var(--color-primary);
+    /* Brand color */
+    letter-spacing: -0.02em;
+}
+
+.formCard {
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--color-bg-card);
+    padding: 40px;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
+.buttonGroup {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.loginLink {
+    font-size: 14px;
+    color: var(--color-text-main);
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 8px;
+}
+
+.loginLink:hover {
+    color: var(--color-primary);
+}

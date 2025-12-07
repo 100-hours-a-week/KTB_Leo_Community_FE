@@ -1,0 +1,92 @@
+:root {
+  /* Brand Colors - Fresh Morning Park Theme */
+  --color-primary: #8FB8AA;
+  /* Sage Green */
+  --color-primary-hover: #759A8D;
+  --color-primary-light: #E8F1EE;
+
+  /* Secondary/Accent */
+  --color-accent: #D4B48C;
+  /* Warm Tan/Beige */
+  --color-accent-hover: #C19A6B;
+  --color-accent-light: #F9F5F0;
+
+  /* Text Colors */
+  --color-text-main: #2C3E36;
+  /* Dark Green-Grey */
+  --color-text-sub: #6B7C75;
+  /* Soft Muted Green-Grey */
+  --color-text-disabled: #A8B5B0;
+  --color-text-on-primary: #FFFFFF;
+
+  /* Background Colors */
+  --color-bg-body: #F7F5F0;
+  /* Warm Cream (Image BG) */
+  --color-bg-card: #FFFFFF;
+  --color-bg-input: #FFFFFF;
+  --color-bg-accent: #EFECE6;
+  /* Slightly darker cream for sections */
+
+  /* Status Colors */
+  --color-error: #D9534F;
+  --color-success: #8FB8AA;
+  /* Matching Primary */
+
+  /* Spacing - Same as before */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Border Radius */
+  --radius-sm: 12px;
+  /* Softer, rounder */
+  --radius-md: 20px;
+  --radius-lg: 30px;
+  --radius-full: 9999px;
+
+  /* Shadows - Soft and Airy */
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+}
+
+body {
+  background-color: var(--color-bg-body);
+  color: var(--color-text-main);
+  font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Modern, friendly font */
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+/* Scrollbar for Webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #D1D1D1;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary);
+}
